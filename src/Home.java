@@ -12,8 +12,8 @@ Statement st;
 
     public void connect(){
     String host="jdbc:mysql://localhost:3306/bank?useSSL=false";
-    String user="root";
-    String pass="1234";
+    String user="userData";
+    String pass="userPassword";
     
     try{
     con=DriverManager.getConnection(host,user,pass);
